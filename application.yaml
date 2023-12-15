@@ -1,0 +1,42 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+logging:
+  level:
+    root: warn
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pgdb
+    username: pguser
+    password: pguser
+
+server:
+  port: 8080
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "uat"
+server:
+  port: 8081
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+server:
+  port: 8082
