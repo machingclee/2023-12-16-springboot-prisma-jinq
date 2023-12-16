@@ -8,4 +8,4 @@ Integration of prisma and springboot.
 
 - With my experience from `prisma` + `kysely` in `nodejs` world, I believe prisma + springboot must be a good fit.
 
-- We integrate springboot with jooq. Jooq reverse-engineer our database and produce types, fieldnames automatically for us. Which is a counterpart of kysely in nodejs world.
+- We integrate springboot with jooq. Jooq reverse-engineers our database and produce types, fieldnames automatically for us. Which is a counterpart of kysely in nodejs world.
