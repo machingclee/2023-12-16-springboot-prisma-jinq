@@ -8,4 +8,4 @@ Integration of prisma and springboot.
 
 - With my experience from `prisma` + `kysely` in `nodejs` world, I believe prisma + springboot must be a good fit.
 
-- We also study type-safe query by `jinq` as an alternative of writing query in ***plain string***. The plain-string approach makes it very difficult to correctly make changes to tables . As requirement changes, table name, field name should also be changed. There is no reason to keep them constant as it brings potential confusion. 
+- We integrate springboot with jooq. Jooq reverse-engineer our database and produce types, fieldnames automatically for us. Which is a counterpart of kysely in nodejs world.
