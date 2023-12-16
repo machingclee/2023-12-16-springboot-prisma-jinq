@@ -8,4 +8,4 @@ Integration of prisma and springboot.
 
 - With my experience from `prisma` + `kysely` in `nodejs` world, I believe prisma + springboot must be a good fit.
 
-- We also study type-safe query by jinq to prevent writing query in ***plain string***, which makes it very difficult to correctly make changes to tables . As requirement changes, table name, field name should also be changed. There is no reason to keep them constant as it brings potential confusion. 
+- We also study type-safe query by `jinq` to prevent writing query in ***plain string***, which makes it very difficult to correctly make changes to tables . As requirement changes, table name, field name should also be changed. There is no reason to keep them constant as it brings potential confusion. 
