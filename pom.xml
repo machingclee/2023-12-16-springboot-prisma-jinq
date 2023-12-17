@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.machingclee</groupId>
-	<artifactId>hibernatetest</artifactId>
+	<artifactId>experimetns</artifactId>
 	<version>1.0</version>
-	<name>hibernatetest</name>
-	<description>testing hibernate</description>
+	<name>experimetns</name>
+	<description>Test JOOQ</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -101,7 +101,7 @@
 							<inputSchema>public</inputSchema>
 						</database>
 						<target>
-							<packageName>com.machingclee.jooq.generated</packageName>
+							<packageName>com.machingclee.experiments.generated</packageName>
 							<directory>src/main/java</directory>
 						</target>
 					</generator>
